@@ -1,0 +1,17 @@
+package com.prashant.springdemo.service;
+
+import java.util.List;
+
+import com.prashant.springdemo.entity.Customer;
+
+public interface CustomerService {
+
+	public List<Customer> getCustomers();
+
+	public void saveCustomer(Customer theCustomer);
+
+	public Customer getCustomer(int tehID);
+
+	public void deleteCustomer(int theID);
+
+}
